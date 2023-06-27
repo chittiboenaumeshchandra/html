@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Main {
+  public static void main(String[] args) {
+    Pattern pattern = Pattern.compile("w3schools", Pattern.CASE_INSENSITIVE);
+    Matcher matcher = pattern.matcher("Visit W3Schools!");
+    boolean matchFound = matcher.find();
+    if(matchFound) {
+      System.out.println("Match found");
+    } else {
+      System.out.println("Match not found");
+    }
+  }
+}
+// Outputs Match found
+
+<pre>
+        <code>
+            import java.util.regex.Matcher;
+            import java.util.regex.Pattern;
+            
+            public class Main {
+              public static void main(String[] args) {
+                Pattern pattern = Pattern.compile("w3schools", Pattern.CASE_INSENSITIVE);
+                Matcher matcher = pattern.matcher("Visit W3Schools!");
+                boolean matchFound = matcher.find();
+                if(matchFound) {
+                  System.out.println("Match found");
+                } else {
+                  System.out.println("Match not found");
+                }
+              }
+            }
+            // Outputs Match found
+                           
+        </code>
+    </pre>
+
+    <big>this is bigtag</big>
+    <p><big>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non amet, animi illo aliquam neque voluptatibus autem ipsum veniam excepturi provident odit nemo optio quae, praesentium, quasi veritatis repudiandae? Doloremque, voluptate?</big></p>
+
+    <audio>
+      <source src=""
+    </audio>
+  </body>
+
+
+</html>;
+    
